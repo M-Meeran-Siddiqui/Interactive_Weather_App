@@ -8,8 +8,6 @@ function App() {
 
   const [input, setInput] = useState('')
   const { weather, thisLocation, values, place, setPlace } = useStateContext()
-  // console.log(weather)
-
   const submitCity = () => {
     setPlace(input)
     setInput('')
@@ -40,8 +38,7 @@ function App() {
           iconString={weather.conditions}
           conditions={weather.conditions}
         />
-
-        <div className='flex justify-center gap-8 flex-wrap w-[60%]'>
+        <div className='flex justify-center gap-8 flex-wrap w-[58%]'>
           {
             values?.slice(1, 7).map(curr => {
               return (
