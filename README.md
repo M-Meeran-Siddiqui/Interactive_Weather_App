@@ -1,5 +1,5 @@
 # 🌦️ Weather App Using React, Vite & Tailwind CSS  
-![Page](C:\Users\Meeran\Desktop\Devp\Weather_App2\src\assets\images\page.png)  
+![Page](page.png)  
 
 ## 📌 Project Overview  
 This project is a **Weather App** built using **React, Vite, and Tailwind CSS** that allows users to check real-time weather conditions for any location. It uses a weather API to fetch and display the temperature, weather description, humidity, and wind speed in an intuitive user interface.  
